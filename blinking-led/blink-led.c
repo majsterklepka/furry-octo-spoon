@@ -26,13 +26,13 @@
 
 int main(void)
 {
-	DDRB = 0b00000001;
+	DDRB |= (1 << DDB0);
 
 	while(1)
 	{
-		PORTB = 0b00000001;
+		PORTB |= (1 << PB0);
 		_delay_ms(125);
-		PORTB = 0b00000000;
+		PORTB &= ~(1 << PB0);
 		_delay_ms(125);
 	}
 
