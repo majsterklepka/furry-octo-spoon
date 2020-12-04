@@ -13,11 +13,12 @@
 # FUSES ........ Parameters for avrdude to flash the fuses appropriately.
 
 
-DEVICE 	   = attiny2313a
-CLOCK      = 4000000
-PROGRAMMER = -c usbasp -b 19200 
+DEVICE_PROG   = t2313
+DEVICE     = attiny2313a
+CLOCK      = 1000000
+PROGRAMMER = -c  avrisp -P /dev/ttyACM0 -b 19200
 OBJECTS    = blink-led.o 
-FUSES      = -U lfuse:w:0x42:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+FUSES      = -U lfuse:w:0x64:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 PROJECT    = blink-led
 TARGET     = $(PROJECT).elf
 
@@ -26,7 +27,7 @@ TARGET     = $(PROJECT).elf
 
 # Tune the lines below only if you know what you are doing:
 
-AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
+AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE_PROG)
 COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE)
 
 # symbolic targets:
