@@ -1,4 +1,5 @@
 # Blinky LED with ATtiny2313A
+my fun with avr-gcc and AVR's
 
 ## Schematic
 
