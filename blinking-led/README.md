@@ -2,11 +2,11 @@
 
 ## Schematic
 
-[pict01](https://github.com/majsterklepka/furry-octo-spoon/raw/master/assets/img/blinky-t2313.png "Schematic")
+![pict01](https://github.com/majsterklepka/furry-octo-spoon/raw/master/assets/img/blinky-t2313.png "Schematic")
 
 ## Breadboard
 
-[pict02]( https://github.com/majsterklepka/furry-octo-spoon/raw/master/assets/img/IMG_20201204_095817.jpg "breadboard")
+![pict02]( https://github.com/majsterklepka/furry-octo-spoon/raw/master/assets/img/IMG_20201204_095817.jpg "breadboard")
 
 
 ## Credits
