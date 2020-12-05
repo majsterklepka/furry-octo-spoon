@@ -2,11 +2,11 @@
 
 ## Schematic
 
-[pict01](/assets/img/blinky-t2313.png "Schematic")
+[pict01](/raw/master/assets/img/blinky-t2313.png "Schematic")
 
 ## Breadboard
 
-[pict02](/assets/img/IMG_20201204_095817.jpg "breadboard")
+[pict02](/raw/master/assets/img/IMG_20201204_095817.jpg "breadboard")
 
 
 ## Credits
